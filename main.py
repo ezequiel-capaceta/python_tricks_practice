@@ -21,5 +21,8 @@ print([even_odd(x) for x in [3,6,9,2]])
 # Problem 4: Use a list comprehension to create a list of the numbers from 
 # 1 to 100 (including 100).
 
+nums = [i for i in range(1,101)]
+print(nums)
+
 # Problem 5: Use a dictionary comprehension to count the length of each 
 # word in a sentence.
