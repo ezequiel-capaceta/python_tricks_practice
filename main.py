@@ -15,6 +15,9 @@ print(cubed([3,6,9,2]))
 # function and a list comprehension to create a new list of booleans, 
 # where even numbers are True and odd numbers are False.
 
+even_odd = lambda x: True if x%2 == 0 else False
+print([even_odd(x) for x in [3,6,9,2]])
+
 # Problem 4: Use a list comprehension to create a list of the numbers from 
 # 1 to 100 (including 100).
 
