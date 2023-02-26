@@ -26,3 +26,6 @@ print(nums)
 
 # Problem 5: Use a dictionary comprehension to count the length of each 
 # word in a sentence.
+
+sent = "The quick brown fox jumped over the fence."
+print({word:len(word) for word in sent.split()})
