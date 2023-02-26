@@ -1,6 +1,10 @@
 # Problem 1: Write a lambda function to sort a list of tuples in ascending 
 # order according to the number in the second position of each tuple.
 
+grades = [('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
+sorted_grades = sorted(grades, key = lambda x: x[1])
+print(sorted_grades)
+
 # Problem 2: Write a lambda function to cube every element of a list
 
 # Problem 3: Write a lambda function to determine whether a number is even 
